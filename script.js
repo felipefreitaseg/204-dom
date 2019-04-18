@@ -11,6 +11,7 @@ caixaZoio.style.fontSize = "20px";
 corpo.style.backgroundColor = "grey";
 //imagem.src = "https://i.ytimg.com/vi/MUn3u4kz70U/hqdefault.jpg";
 
+
 function tirarOZoio(){
     titulo.innerHTML= "Garaio, ja tinha passado um minuto";
     caixaZoio.innerHTML = "Hardi córe !!";
