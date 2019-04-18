@@ -29,4 +29,3 @@ function deixarOZoio(){
 botao.onclick=tirarOZoio;
 botao2.onclick=deixarOZoio;
 
-
