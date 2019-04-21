@@ -40,5 +40,7 @@ let menu = document.querySelector(".menu");
 
 function aparecer(){
     menu.classList.toggle("ativo");
+    menuH.classList.toggle("ativo");
+
 }
 menuH.onclick = aparecer;

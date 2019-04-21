@@ -42,15 +42,28 @@ nav{
 }
 .trace{
     width: 100%;
+    transform-origin: 0% 100%;
     height: 5px;
     background-color: black;
     border-radius: 40px;
+    transition: 1s;
+
 }
 
 .menu{
-    transform: translateX(130vw);
+    transform: translateX(-130vw);
     transition: 0.5s;
 }
 .ativo{
     transform: translateX(0vw)
+}
+.menuH.ativo .trace:nth-child(1){
+    transform: rotate(45deg) translate(2px,4px);
+}
+.menuH.ativo .trace:nth-child(2){
+    opacity: 0;
+    width: 0;
+}
+.menuH.ativo .trace:nth-child(3){
+    transform: rotate(-45deg) translate(3px,1px);
 }
